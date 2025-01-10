@@ -1,0 +1,2 @@
+- designer
+- pyuic5 -x test2.ui -o test.py

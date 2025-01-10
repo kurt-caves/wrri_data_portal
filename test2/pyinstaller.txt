@@ -1,0 +1,6 @@
+pyinstaller --onefile --hidden-import PyQt5 .\main.
+ pyinstaller --onefile --hidden-import PyQt5 --add-data "*.ui;." .\main.py
+
+pyinstaller --onefile --windowed --hidden-import PyQt5 --add-data "welcomescreen.ui;." --add-data "downloadscreen.ui;." --add-data "sitelookup.ui;." main.py
+
+pyinstaller --onefile --windowed --hidden-import PyQt5 --add-data "C:\Users\klyell\Documents\Projects\user_interface\field_telemetry\test2\welcomescreen.ui;." --add-data "C:\Users\klyell\Documents\Projects\user_interface\field_telemetry\test2\downloadscreen.ui;." --add-data "C:\Users\klyell\Documents\Projects\user_interface\field_telemetry\test2\sitelookup.ui;." main.py
