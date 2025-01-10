@@ -1,5 +1,5 @@
 # Setup
-- `pip install PyQt6`
+- `pip install PyQt5`
 - `sudo apt install libglu1-mesa-dev`
 - `sudo apt install libegl1-mesa`
 - `sudo apt install libxkbcommon-x11-0`
